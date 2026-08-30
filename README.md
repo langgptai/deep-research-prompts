@@ -2,6 +2,24 @@
 Prompts for deep research （openai， gemini，qwen）
 
 
+## 2026 Deep Research 工具速览
+
+> 2026-08 更新。下方提示词对各家 Deep Research 产品通用；这里补一份「在哪里跑」的清单。
+
+**闭源产品**：ChatGPT Deep Research（[GPT-5.6](https://openai.com/index/gpt-5-6/) 驱动）· Gemini Deep Research（[Gemini 3.x](https://ai.google.dev/gemini-api/docs/changelog)）· Claude Research（[Claude 5 家族](https://platform.claude.com/docs/en/about-claude/models/overview)）· 豆包 / 千问 / DeepSeek 应用内的「深度研究」模式
+
+**开源实现**
+
+| 名称 | Stars | 简介 |
+|---|---|---|
+| [gpt-researcher](https://github.com/assafelovic/gpt-researcher) | ![GitHub Repo stars](https://badgen.net/github/stars/assafelovic/gpt-researcher) | 最早也最流行的开源自主研究 Agent，生成带引用的长报告 |
+| [deer-flow](https://github.com/bytedance/deer-flow) | ![GitHub Repo stars](https://badgen.net/github/stars/bytedance/deer-flow) | 字节开源的 Deep Research 框架（LangGraph），多 Agent 协作、可出报告 / PPT / 播客 |
+| [OpenScience](https://github.com/synthetic-sciences/openscience) | ![GitHub Repo stars](https://badgen.net/github/stars/synthetic-sciences/openscience) | 开源 AI 科研工作台：读文献、写代码跑实验、写报告 |
+| [last30days-skill](https://github.com/mvanhorn/last30days-skill) | ![GitHub Repo stars](https://badgen.net/github/stars/mvanhorn/last30days-skill) | Agent Skill：横跨 Reddit / X / YouTube / HN 做近 30 天的主题综述 |
+| [cangjie-skill](https://github.com/kangarooking/cangjie-skill) | ![GitHub Repo stars](https://badgen.net/github/stars/kangarooking/cangjie-skill) | 把书、长视频、播客蒸馏成可执行 Skill 的中文项目 |
+| [lineage-skill](https://github.com/JuneYaooo/lineage-skill) | ![GitHub Repo stars](https://badgen.net/github/stars/JuneYaooo/lineage-skill) | 带出处（lineage）的蒸馏 Skill，输出 [OKF](https://github.com/yzfly/awesome-okf) 知识包 |
+| [deepseek-harness (dsh)](https://github.com/deepseek-ai/deepseek-harness) | ![GitHub Repo stars](https://badgen.net/github/stars/deepseek-ai/deepseek-harness) | DeepSeek 官方 Agent 框架，配合联网插件即可跑本仓库的研究计划提示词 |
+
 ## Research Plan
 
 > from: https://www.reddit.com/r/ChatGPTPro/comments/1in87ic/mastering_aipowered_research_my_guide_to_deep/
